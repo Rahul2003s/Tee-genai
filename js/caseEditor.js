@@ -120,6 +120,7 @@ var line4;
 	  		var el = e.target;	  		
 	  		var design = $(this).attr("src");
 	  		$('#phoneDiv').css({
+				
 				'backgroundImage': 'url(' + design +')',
 				'backgroundRepeat': 'no-repeat',
 				'backgroundPosition': 'top center',
