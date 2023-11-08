@@ -92,14 +92,14 @@ var line4;
 	        
 	  		fabric.Image.fromURL(el.src, function(image) {
 		          image.set({
-		            left: left,
+		            left: 0,
 		            top: top,
 		            angle: 0,
 		            padding: 10,
 		            cornersize: 10,
 	      	  		hasRotatingPoint:true
 		          });
-		          //image.scale(getRandomNum(0.1, 0.25)).setCoords();
+		          image.scale(getRandomNum(0.1, 0.25)).setCoords();
 		          canvas.add(image);
 		        });
 	  	});	  		  
